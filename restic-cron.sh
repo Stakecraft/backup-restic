@@ -1,5 +1,4 @@
 #!/bin/bash
-PATH=/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin
 SSH_REMOTE_PATH=$HOSTNAME
 CONFIG_FILE="/etc/restic-cron.conf"
 EXCLUDE_TMP="$(mktemp)"
